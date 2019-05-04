@@ -2279,10 +2279,10 @@
       <pose frame=''>-1.3204 -1.92083 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>154 530000000</sim_time>
-      <real_time>155 767402377</real_time>
-      <wall_time>1556953077 599470232</wall_time>
-      <iterations>154530</iterations>
+      <sim_time>223 462000000</sim_time>
+      <real_time>69 51928411</real_time>
+      <wall_time>1556973325 216428904</wall_time>
+      <iterations>68932</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -2293,8 +2293,18 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='my_ball'>
+        <pose frame=''>2.20348 -0.320105 0.1 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link_0'>
+          <pose frame=''>2.20348 -0.320105 0.1 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='my_building'>
-        <pose frame=''>0.059936 -0.714894 0 0 -0 0</pose>
+        <pose frame=''>0.05994 -0.71489 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='Wall_1'>
           <pose frame=''>-8.71 -3.24 0 0 0 -1.5708</pose>
@@ -2382,50 +2392,50 @@
         </link>
       </model>
       <model name='table'>
-        <pose frame=''>3.00509 0.723212 -1e-06 -1e-06 1e-06 0</pose>
+        <pose frame=''>3.00509 0.723212 -9e-06 -1e-06 0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.00509 0.723212 -1e-06 -1e-06 1e-06 0</pose>
+          <pose frame=''>3.00509 0.723212 -9e-06 -1e-06 0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_0'>
-        <pose frame=''>-6.91033 -1.67494 -9e-06 1e-06 -1e-06 0</pose>
+        <pose frame=''>-6.91033 -1.67494 -2e-06 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-6.91033 -1.67494 -9e-06 1e-06 -1e-06 0</pose>
+          <pose frame=''>-6.91033 -1.67494 -2e-06 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_1'>
-        <pose frame=''>0.05125 5.57729 -2e-06 0 -0 0</pose>
+        <pose frame=''>0.05125 5.57729 -1e-06 0 1e-06 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.05125 5.57729 -2e-06 0 -0 0</pose>
+          <pose frame=''>0.05125 5.57729 -1e-06 0 1e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_2'>
-        <pose frame=''>-0.568647 -6.89736 -8e-06 0 -0 0</pose>
+        <pose frame=''>-0.568647 -6.89736 -1e-06 0 1e-06 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.568647 -6.89736 -8e-06 0 -0 0</pose>
+          <pose frame=''>-0.568647 -6.89736 -1e-06 0 1e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
       <model name='table_3'>
-        <pose frame=''>-1.3204 -1.92083 -2e-06 0 -0 0</pose>
+        <pose frame=''>-1.3204 -1.92083 -1e-06 0 1e-06 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.3204 -1.92083 -2e-06 0 -0 0</pose>
+          <pose frame=''>-1.3204 -1.92083 -1e-06 0 1e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -9.8 0 -0 0</wrench>
@@ -2437,10 +2447,112 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>2.85729 -22.6882 56.6739 0 1.24764 1.3962</pose>
+        <pose frame=''>3.03973 -15.2735 40.2541 0 1.24764 1.3962</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <model name='my_ball'>
+      <link name='link_0'>
+        <pose frame=''>0 -0 0 0 -0 0</pose>
+        <inertial>
+          <mass>0.98078</mass>
+          <inertia>
+            <ixx>0.0968172</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0968172</iyy>
+            <iyz>0</iyz>
+            <izz>0.0968172</izz>
+          </inertia>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+        </inertial>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <visual name='visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.1</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <lighting>1</lighting>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>1 1 1 1</specular>
+            <emissive>1 1 1 1</emissive>
+            <shader type='vertex'>
+              <normal_map>__default__</normal_map>
+            </shader>
+          </material>
+          <cast_shadows>1</cast_shadows>
+          <transparency>0</transparency>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.1</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <fdir1>0 0 0</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1</coefficient>
+                <patch_radius>0</patch_radius>
+                <surface_radius>0</surface_radius>
+                <use_patch_radius>1</use_patch_radius>
+                <ode>
+                  <slip>0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+              <threshold>1e+06</threshold>
+            </bounce>
+            <contact>
+              <collide_without_contact>0</collide_without_contact>
+              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+              <collide_bitmask>1</collide_bitmask>
+              <ode>
+                <soft_cfm>0</soft_cfm>
+                <soft_erp>0.2</soft_erp>
+                <kp>1e+13</kp>
+                <kd>1</kd>
+                <max_vel>0.01</max_vel>
+                <min_depth>0</min_depth>
+              </ode>
+              <bullet>
+                <split_impulse>1</split_impulse>
+                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+                <soft_cfm>0</soft_cfm>
+                <soft_erp>0.2</soft_erp>
+                <kp>1e+13</kp>
+                <kd>1</kd>
+              </bullet>
+            </contact>
+          </surface>
+        </collision>
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>2.20348 -0.320105 0 0 -0 0</pose>
+    </model>
   </world>
 </sdf>
